@@ -11,6 +11,8 @@
 		273A660A1A69C5F100A4DCAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273A66091A69C5F100A4DCAA /* Images.xcassets */; };
 		273A660D1A69C5F100A4DCAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 273A660B1A69C5F100A4DCAA /* MainMenu.xib */; };
 		273A66191A69C5F100A4DCAA /* hatcheryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A66181A69C5F100A4DCAA /* hatcheryAppTests.swift */; };
+		273A66241A69C8A000A4DCAA /* hatched.png in Resources */ = {isa = PBXBuildFile; fileRef = 273A66221A69C8A000A4DCAA /* hatched.png */; };
+		273A66251A69C8A000A4DCAA /* hatched32.png in Resources */ = {isa = PBXBuildFile; fileRef = 273A66231A69C8A000A4DCAA /* hatched32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		273A66121A69C5F100A4DCAA /* hatcheryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hatcheryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273A66171A69C5F100A4DCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273A66181A69C5F100A4DCAA /* hatcheryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatcheryAppTests.swift; sourceTree = "<group>"; };
+		273A66221A69C8A000A4DCAA /* hatched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hatched.png; sourceTree = "<group>"; };
+		273A66231A69C8A000A4DCAA /* hatched32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hatched32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			children = (
 				273A66071A69C5F100A4DCAA /* AppDelegate.swift */,
 				273A66091A69C5F100A4DCAA /* Images.xcassets */,
+				273A66221A69C8A000A4DCAA /* hatched.png */,
+				273A66231A69C8A000A4DCAA /* hatched32.png */,
 				273A660B1A69C5F100A4DCAA /* MainMenu.xib */,
 				273A66051A69C5F100A4DCAA /* Supporting Files */,
 			);
@@ -186,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273A66241A69C8A000A4DCAA /* hatched.png in Resources */,
 				273A660A1A69C5F100A4DCAA /* Images.xcassets in Resources */,
+				273A66251A69C8A000A4DCAA /* hatched32.png in Resources */,
 				273A660D1A69C5F100A4DCAA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
